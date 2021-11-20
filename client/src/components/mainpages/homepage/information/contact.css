@@ -1,0 +1,128 @@
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background: url(background.jpg) no-repeat center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    
+  }
+
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+    
+}
+
+.contact .content h2 {
+    font-size:36px;
+    font-weight: 500;
+    color:rgb(243, 240, 240);
+    font-family: serif;
+
+}
+.content p {
+    
+    font-weight: 500;
+    color:rgb(247, 247, 247);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+ .icon{
+    min-height: 35px;
+    height: 35px;
+    width: 35px;
+    background: rgb(250, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    font-size:22px;
+}
+
+.text {
+    display: flex;
+    margin-left:20px;
+    font-size:16px;
+    flex-direction: column;
+    font-weight:300px;
+}
+
+.text h6{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.text p{
+    color: #adb5bd;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background:#ccc;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contactForm .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size:16px;
+    margin: 3px 0;
+    border: none;
+     border-bottom: 2px solid lightgray;  
+}
+
+.contactForm .inputBox span{
+   color: rgb(8, 8, 8)
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background:#6c757d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size:14px;
+ }
+
+ @media (max-width:991px) {
+     .contact {
+         padding: 50px;
+     }
+     .container {
+         flex-direction: column;
+     }
+
+     .contactinfo {
+         margin-bottom: 40px;
+         width: 100%;
+     }
+ }
+ 

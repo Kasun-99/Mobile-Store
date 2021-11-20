@@ -1,0 +1,41 @@
+.pro-cat-title{
+  display: flex;
+}
+
+.col-md-6{
+ 
+    margin-bottom: 2rem;
+    width: 300px;
+  }
+
+  /* About Page */
+
+.text-justify{
+    max-width: 1000px;
+    margin: auto;
+    
+  }
+  .text-center {
+    padding-top:0rem;
+    text-align: center!important;
+    
+  }
+   li {
+    color: #666666;
+    
+  }
+  
+  
+  p {
+    margin-top: 0;
+    align-items: center;
+    text-align:justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 1rem;
+    color: #666666;
+    font-size: .9rem;
+    line-height: 25px;
+  }

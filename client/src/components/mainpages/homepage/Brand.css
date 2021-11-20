@@ -1,0 +1,34 @@
+.img-slider{
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:0;
+    margin-bottom: 0;
+    width: 100%;
+    
+}
+ h4{
+    border: none;
+    padding-top: 2rem;
+    color: black;
+}
+.slide{
+    display: inline-block;
+    /* margin: 20px; */
+    margin:4vw;
+    /* margin-left: 10px; */
+    padding-right: 0;
+    padding-left: 0;
+}
+.slide img{
+    border-radius: 6px;
+}
+
+@media (max-width: 500px){
+    .img-slider {
+        display: inline-block;
+        margin-left: -2px;
+}
+    
+  }
